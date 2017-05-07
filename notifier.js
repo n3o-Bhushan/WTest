@@ -1,4 +1,4 @@
-<script type="text/javascript">
+
  window.addEventListener('load', function() {
   var status = document.getElementById("stat");
   function updateOnlineStatus(event) {
@@ -10,4 +10,3 @@
   window.addEventListener('online',  updateOnlineStatus);
   window.addEventListener('offline', updateOnlineStatus);
 });
- </script>
